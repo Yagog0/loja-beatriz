@@ -1,9 +1,46 @@
-# Heliby studio
+# Heliby Studio
 
-Protótipo responsivo de loja de camisetas personalizadas, em HTML, CSS e JavaScript, sem dependências de build.
+![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/status-prot%C3%B3tipo-blue)
 
-Abra `index.html` no navegador ou execute `python -m http.server 8000` nesta pasta e acesse http://localhost:8000.
+Protótipo responsivo de loja de camisetas personalizadas, desenvolvido com HTML, CSS e JavaScript. Pasta de origem: **loja beatriz**.
 
-Inclui filtros de coleção, prévia de personalização de texto, escolha de cor e tamanho, sacola persistente no navegador e remoção de itens. Ilustrações de camisetas em SVG são demonstrativas, assim como produtos, nome da marca e preços. Fontes do Google Fonts são opcionais e possuem fallback local.
+## Funcionalidades
 
-Para vender de verdade, ainda será necessário cadastrar produtos reais, fotografias, informações comerciais, tabela de medidas, políticas da loja, estoque, frete e um provedor de pagamento com backend seguro. A versão atual não recebe pagamentos nem envia pedidos.
+- Filtros de coleção.
+- Prévia de personalização de texto.
+- Escolha de cor e tamanho.
+- Sacola persistente no navegador e remoção de itens.
+- Layout adaptado para computador e celular.
+
+## Executar
+
+Abra `index.html` no navegador. Não há etapa de build nem dependências para instalar.
+
+Como alternativa, com Python instalado:
+
+```sh
+python -m http.server 8000
+```
+
+Acesse **http://localhost:8000**.
+
+## Estrutura
+
+| Arquivo | Responsabilidade |
+| --- | --- |
+| `index.html` | Estrutura e conteúdo da loja |
+| `style.css` | Layout, estilos e responsividade |
+| `app.js` | Personalização, filtros e sacola |
+
+## Sobre o protótipo
+
+Produtos, nome da marca, preços e ilustrações de camisetas em SVG são demonstrativos. As fontes do Google Fonts são opcionais e possuem alternativas locais.
+
+A versão atual não recebe pagamentos nem envia pedidos. Para operar uma loja real, ainda são necessários produtos, fotos e informações comerciais, políticas de atendimento, estoque, frete e integração de pagamento com backend.
+
+## Autor
+
+[Yago Maba · @Yagog0](https://github.com/Yagog0)
