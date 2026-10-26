@@ -6,6 +6,7 @@
 ![Status](https://img.shields.io/badge/status-prot%C3%B3tipo-blue)
 
 Protótipo responsivo de loja de camisetas personalizadas, desenvolvido com HTML, CSS e JavaScript. Pasta de origem: **loja beatriz**.
+https://yagog0.github.io/loja-beatriz/
 
 ## Funcionalidades
 
